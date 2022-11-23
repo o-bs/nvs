@@ -1,6 +1,6 @@
 # NVS chocolatey package
 
-Chocolatey package for [nvs](https://github.com/jasongin/nvs/)
+Chocolatey package for [nvs](https://github.com/o-bs/nvs/)
 
 ## Test the package locally
 

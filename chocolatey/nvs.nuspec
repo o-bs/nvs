@@ -18,7 +18,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>nvs</id>
     <version>1.5.2</version>
-    <packageSourceUrl>https://github.com/jasongin/nvs</packageSourceUrl>
+    <packageSourceUrl>https://github.com/o-bs/nvs</packageSourceUrl>
     <owners>jasongin molant</owners>
     <!-- ============================== -->
 
@@ -26,20 +26,20 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- This section is about the software itself -->
     <title>NVS</title>
     <authors>jasongin</authors>
-    <projectUrl>https://github.com/jasongin/nvs</projectUrl>
+    <projectUrl>https://github.com/o-bs/nvs</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/nvs.png</iconUrl>-->
     <copyright>Microsoft 2019</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
-    <licenseUrl>https://github.com/jasongin/nvs/blob/master/LICENSE.txt</licenseUrl>
+    <licenseUrl>https://github.com/o-bs/nvs/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/jasongin/nvs</projectSourceUrl>
-    <docsUrl>https://github.com/jasongin/nvs/tree/master/doc</docsUrl>
-    <bugTrackerUrl>https://github.com/jasongin/nvs/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/o-bs/nvs</projectSourceUrl>
+    <docsUrl>https://github.com/o-bs/nvs/tree/master/doc</docsUrl>
+    <bugTrackerUrl>https://github.com/o-bs/nvs/issues</bugTrackerUrl>
     <tags>nvs nodejs node</tags>
     <summary>Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js </summary>
     <description>NVS is a cross-platform utility for switching between different versions and forks of [Node.js](http://nodejs.org/).
     NVS will get installed in `%LOCALAPPDATA%\nvs\` and added to your `PATH`.
-	 For more information about the usage please visit [NVS's docs](https://github.com/jasongin/nvs/blob/master/README.md)</description>
+	 For more information about the usage please visit [NVS's docs](https://github.com/o-bs/nvs/blob/master/README.md)</description>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->

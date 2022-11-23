@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/jasongin/nvs/releases/download/v1.5.2/nvs-1.5.2.msi' # download url, HTTPS preferred
+$url        = 'https://github.com/o-bs/nvs/releases/download/v1.5.2/nvs-1.5.2.msi' # download url, HTTPS preferred
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName

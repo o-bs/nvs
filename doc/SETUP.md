@@ -10,7 +10,7 @@ By default, downloaded Node.js files are cached under the NVS installation direc
 ## Windows
 NVS requires PowerShell 3.0, which is included with Windows 8 and later. On Windows 7, get PowerShell 3.0 from [Windows Management Framework 3.0](https://www.microsoft.com/en-us/download/details.aspx?id=34595) (which requires Windows 7 Service Pack 1).
 
-Download and run the Windows Installer (MSI) package from the [Releases page on GitHub](https://github.com/jasongin/nvs/releases). Note the single MSI package supports both x86 and x64 systems and both per-user and per-machine installations.
+Download and run the Windows Installer (MSI) package from the [Releases page on GitHub](https://github.com/o-bs/nvs/releases). Note the single MSI package supports both x86 and x64 systems and both per-user and per-machine installations.
 
 As an alternative to installing the MSI, the following manual steps may be used to setup NVS on Windows, from either a Command Prompt or PowerShell.
 
@@ -22,7 +22,7 @@ set NVS_HOME=%ProgramData%\nvs
 ```
 2. Clone this repo:
 ```cmd
-git clone https://github.com/jasongin/nvs "%NVS_HOME%"
+git clone https://github.com/o-bs/nvs "%NVS_HOME%"
 ```
 3. Run the `install` command:
 ```cmd
@@ -42,7 +42,7 @@ $env:NVS_HOME="$env:ProgramData\nvs"
 ```
 2. Clone this repo:
 ```powershell
-git clone https://github.com/jasongin/nvs "$env:NVS_HOME"
+git clone https://github.com/o-bs/nvs "$env:NVS_HOME"
 ```
 3. Run the `install` command:
 ```powershell
@@ -81,7 +81,7 @@ export NVS_HOME="/usr/local/nvs"
 ```
 2. Clone this repo:
 ```sh
-git clone https://github.com/jasongin/nvs "$NVS_HOME"
+git clone https://github.com/o-bs/nvs "$NVS_HOME"
 ```
 3. Source the `install` command:
 ```sh

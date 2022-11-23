@@ -1,6 +1,6 @@
 # NVS (Node Version Switcher)
 
-[![Build Status: Mac + Linux](https://travis-ci.org/jasongin/nvs.svg?branch=master)](https://travis-ci.org/jasongin/nvs) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/p0mo0nobkf0ws7ie/branch/master?svg=true)](https://ci.appveyor.com/project/jasongin/nvs)
+[![Build Status: Mac + Linux](https://travis-ci.org/o-bs/nvs.svg?branch=master)](https://travis-ci.org/o-bs/nvs) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/p0mo0nobkf0ws7ie/branch/master?svg=true)](https://ci.appveyor.com/project/o-bs/nvs)
 
 NVS is a cross-platform utility for switching between different versions and forks of [**Node.js**](http://nodejs.org). NVS is itself written in node JavaScript.
 
@@ -10,7 +10,7 @@ This tool is obviously inspired by other node version manager tools, especially 
 Following are basic setup instructions. [For more details and options for setting up NVS, refer to the Setup page.](doc/SETUP.md)
 
 ### Windows
-A Windows Installer (MSI) package is available from the [NVS releases page on GitHub](https://github.com/jasongin/nvs/releases).
+A Windows Installer (MSI) package is available from the [NVS releases page on GitHub](https://github.com/o-bs/nvs/releases).
 
 You can use [winget](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1?hl=en-us&gl=US) to install it (available by default in Windows 11):
 ```sh
@@ -26,7 +26,7 @@ choco install nvs
 Specify the installation path, clone the repo, and *source* the `install` command:
 ```
 export NVS_HOME="$HOME/.nvs"
-git clone https://github.com/jasongin/nvs "$NVS_HOME"
+git clone https://github.com/o-bs/nvs "$NVS_HOME"
 . "$NVS_HOME/nvs.sh" install
 ```
 
@@ -86,7 +86,7 @@ A version or filter consists of a complete or partial semantic version number or
 ## Interactive menus
 When invoked with no parameters, `nvs` displays an interactive menu for switching and downloading node versions.
 
-![nvs menu](https://github.com/jasongin/nvs/releases/download/v0.8.0/nvs-menu.gif)
+![nvs menu](https://github.com/o-bs/nvs/releases/download/v0.8.0/nvs-menu.gif)
 
 *NVS uses [**console-menu**](https://github.com/jasongin/console-menu), a module originally written for this project then published separately.*
 

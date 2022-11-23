@@ -4,7 +4,7 @@ NVS can be used in a continuous-integration environment such as [AppVeyor](https
 
 Generally, the following steps should work with any CI system:
  1. In the test matrix, define an environment variable that is the Node.js version to use, using any supported NVS version syntax.
- 2. In the installation script, clone NVS. It is strongly recommended to use `git clone --branch` to clone a specific tagged [release version](https://github.com/jasongin/nvs/releases) to ensure consistent results. (Avoid exposure to potential regressions and future semver-major breaking changes.)
+ 2. In the installation script, clone NVS. It is strongly recommended to use `git clone --branch` to clone a specific tagged [release version](https://github.com/o-bs/nvs/releases) to ensure consistent results. (Avoid exposure to potential regressions and future semver-major breaking changes.)
  3. Add the NVS directory to the `PATH` (on Windows) or source the `nvs.sh` script.
  4. Use [`nvs add`](ADD.md) and [`nvs use`](USE.md) commands to install the version of Node.js indicated by that environment variable.
 
@@ -29,7 +29,7 @@ environment:
   - NODEJS_VERSION: chakracore/latest
 install:
 # Install NVS.
-- git clone --branch v%NVS_VERSION% --depth 1 https://github.com/jasongin/nvs %LOCALAPPDATA%\nvs
+- git clone --branch v%NVS_VERSION% --depth 1 https://github.com/o-bs/nvs %LOCALAPPDATA%\nvs
 - set PATH=%LOCALAPPDATA%\nvs;%PATH%
 - nvs --version
 # Install the selected version of Node.js using NVS.
@@ -65,7 +65,7 @@ env:
   - NODEJS_VERSION=chakracore/latest
 before_install:
 # Install NVS.
-- git clone --branch v$NVS_VERSION --depth 1 https://github.com/jasongin/nvs ~/.nvs
+- git clone --branch v$NVS_VERSION --depth 1 https://github.com/o-bs/nvs ~/.nvs
 - . ~/.nvs/nvs.sh
 - nvs --version
 install:
